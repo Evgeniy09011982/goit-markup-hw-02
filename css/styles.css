@@ -199,6 +199,10 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-txt-cl);
+}
 /* Hero portfolio*/
 /* Main section portfolio */
 
@@ -209,8 +213,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-black-txt-cl);
+  cursor: pointer;
 }
-
 .button-current:hover,
 .button-current:focus {
   color: var(--secondary-black-txt-cl);
